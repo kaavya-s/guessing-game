@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 0 20px;
+  background-color: plum;
+  background-size: cover;
+  position: absolute;
+  color: black;
+  font-size: large;
+  background-image: url(https://free4kwallpapers.com/uploads/originals/2020/09/04/neon-background--wallpaper.jpg);
+}
+#title {
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+#textBox {
+  width: 110px;
+  margin: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+#textLabel {
+  font-size: x-large;
+}
+#checkButton {
+  color: blue;
+  margin-left: 130px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 10px;
+}
+#win {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  background-color: #f8f9fa;
+}
+#lose {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 120px;
+}
+#lo {
+  padding: 20px;
+}
+#d1 {
+  border: solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+#attemptCount {
+  border: solid burlywood;
+  border-radius: 100px;
+  border-width: 20px;
+  background-color: burlywood;
+  margin-left: 850px;
+}
+#attemptLabel {
+  margin-left: 800px;
+}
